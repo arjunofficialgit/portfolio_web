@@ -482,7 +482,12 @@ a{
 }
 
 /* Media Quries */
+/* @media screen and (max-width:) */
 @media screen and (max-width:1023px) {
+  .skill-fade-text{
+    bottom:-3%!important;
+    font-size:5em!important;
+  }
   .hero-section-left{
     order: 2;
     margin-top: 4rem;
@@ -510,6 +515,7 @@ a{
   .faded-text{
     font-size: 4rem;
   }
+  
 }
 @media screen and (max-width:428px){
   .hero-section{
@@ -522,16 +528,43 @@ a{
   .faded-text {
     font-size: 4rem;
   }
+  .skill-fade-text{
+    bottom:-1%!important;
+    font-size:4em!important;
+  }
+  
 }
 @media screen and (min-width:1024px){
   .hero-section-left{
     width: 60%;
   }
 }
+
+@media screen and (max-width:560px){
+  .link-wrapper{
+    flex-direction: column;
+    
+  }
+  .footer-faded-text{
+    left: 116px !important;
+    bottom: 22px !important;
+    font-size: 2em !important;
+
+  }
+  .icon-wrapper{
+    gap: 0.7rem;
+    flex-direction: column;
+  }
+  
+}
 @media screen and (max-width:768px) {
   .project-card{
     width: 100%!important;
   }
+  /* .skill-fade-text{
+    bottom:-2%!important;
+    font-size:5em!important;
+  } */
   #project1{
     margin: auto!important;
   }
@@ -550,6 +583,10 @@ a{
   .navbar{
     flex-direction: column;
     gap: 2rem;
+  }
+  .skill-fade-text{
+    font-size: 5em;
+    bottom: -5%;
   }
 }
 @media screen and (min-width:1208px) and (max-width:1440px) {
@@ -655,10 +692,10 @@ a{
 
 .skill-fade-text{
   position:absolute;
-  font-size:15em;
+  font-size:7em;
   font-style:bold;
   color:rgb(231,231,231);
-  bottom:-34.5%;
+  bottom: -7%;
   right:5%;
   user-select:none;
   overflow-y:hidden;
