@@ -481,7 +481,7 @@ a{
 
 /* Media Quries */
 
-@media (max-width:1300px) {
+@media (max-width:1000px) {
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
@@ -489,12 +489,12 @@ a{
       font-size: 40px;
     }
     .project-container {
-      padding: 5px;
-      margin: 10px;
+      padding: 10px;
+      margin: 20px;
       gap: 40px;
     }
     .project-card {
-      width: 70%;
+      width: 57%;
       height: 450px;
     }
     .project-card {
@@ -519,18 +519,18 @@ a{
       width: 100%;
     }
     #project2 {
-      margin-left: 200px;
+      margin-left: 250px;
     }
     #project4 {
-      margin-left: 200px;
+      margin-left: 250px;
     }
 
     #project1{
-        margin-left: 190px;
+        margin-left: 250px;
         
       }
       #project3{
-        margin-left: 190px;
+        margin-left: 250px;
       }
 
 
